@@ -1,0 +1,45 @@
+body {font-family: Arial, sans-serif; margin: 0; background: #FFF8F0;}
+header {background: #6D4C41; color: white; padding: 15px 20px;}
+nav ul {list-style: none; padding: 0;}
+nav ul li {display: inline; margin-right: 20px;}
+nav a {color: white; text-decoration: none; font-weight: bold;}
+nav h1 {color: white; margin: 0;}
+
+/* ALL 4 PICTURES */
+.hero {
+    background: linear-gradient(rgba(78, 52, 46, 0.7), rgba(78, 52, 46, 0.7)),
+                url('../images/hero-coffee.jpg');
+    background-size: cover; background-position: center;
+    color: white; text-align: center; padding: 120px 20px; min-height: 500px;
+}
+
+.about-bg {
+    background: linear-gradient(rgba(78, 52, 46, 0.7), rgba(78, 52, 46, 0.7)),
+                url('../images/about-cafe.jpg');
+    background-size: cover; background-position: center;
+    color: white; text-align: center; padding: 60px 20px; min-height: 900px;
+}
+
+.menu-bg {
+    background: linear-gradient(rgba(78, 52, 46, 0.7), rgba(78, 52, 46, 0.7)),
+                url('../images/menu-coffee.jpg');
+    background-size: cover; background-position: center;
+    color: white; text-align: center; padding: 60px 20px; min-height: 900px;
+}
+
+.contact-bg {
+    background: linear-gradient(rgba(78, 52, 46, 0.7), rgba(78, 52, 46, 0.7)),
+                url('../images/contact-us.jpg');
+    background-size: cover; background-position: center;
+    color: white; text-align: center; padding: 100px 20px; min-height: 400px;
+}
+
+.btn {background: #4CAF50; color: white; padding: 14px 28px; text-decoration: none; border-radius: 8px; display: inline-block; margin-top: 20px; font-weight: bold;}
+.card {background: white; padding: 25px; margin: 20px auto; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); max-width: 600px;}
+footer {background: #6D4C41; color: white; text-align: center; padding: 20px;}
+.enquiry-bg {
+    background: linear-gradient(rgba(78, 52, 46, 0.7), rgba(78, 52, 46, 0.7)),
+                url('../images/about-coffee.jpg');
+    background-size: cover; background-position: center; background-attachment: fixed;
+    color: white; text-align: center; padding: 60px 20px; min-height: 900px;
+}
