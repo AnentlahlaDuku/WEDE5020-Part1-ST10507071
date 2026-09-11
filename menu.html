@@ -5,110 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu - Cape Bean Coffee Co</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Merriweather:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        .menu-item { display:flex; justify-content:space-between; gap:1rem; padding:0.8rem 0; border-bottom:1px dashed #ddd; }
+        .menu-item img { width:60px; height:60px; object-fit:cover; border-radius:12px; }
+        .menu-img-main { width:100%; height:200px; object-fit:cover; border-radius:16px; margin-bottom:1rem; }
+    </style>
 </head>
 <body>
     <header>
+        <h1>Cape Bean Coffee Co</h1>
         <nav>
-            <h1>Cape Bean Coffee Co</h1>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="enquiry.html">Enquiry</a></li>
-                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="menu-bg">
-        <h2 style="font-size: 42px; margin-bottom: 10px;">Our Menu</h2>
-        <p style="font-size: 18px; margin-bottom: 30px;">Handcrafted with love, served with a smile</p>
+    <main class="main-grid">
+        <section class="content" style="grid-column:1 / -1;">
+            <h2>Our Menu</h2>
+            <p>Handcrafted with love, served with a smile</p>
+        </section>
 
-        <!-- BIG SCROLLABLE MENU BOX INSIDE THE PICTURE -->
-        <div style="background: rgba(255,248,240,0.92); color: #4E342E; padding: 30px; border-radius: 16px; display: inline-block; margin-top: 10px; max-width: 800px; width: 90%; max-height: 650px; overflow-y: auto; text-align: left;">
-            
-            <!-- COFFEE SECTION -->
-            <h3 style="color: #6D4C41; border-bottom: 2px solid #D7CCC8; padding-bottom: 10px; margin-bottom: 20px;">☕ Hot Coffee</h3>
-            
-            <div style="display: flex; justify-content: space-between; margin: 15px 0;">
-                <div>
-                    <strong>Americano</strong>
-                    <p style="margin: 5px 0; font-size: 14px; color: #666;">Rich espresso shots with hot water</p>
-                </div>
-                <strong style="color: #4CAF50;">R35</strong>
+        <!-- HOT COFFEE -->
+        <section class="card">
+            <img src="images/hot-coffee.jpg" alt="Hot Coffee" class="menu-img-main" onerror="this.src='https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500'">
+            <h3>☕ Hot Coffee</h3>
+            <div class="menu-item">
+                <div><strong>Americano</strong><br><small>Rich espresso shots with hot water</small></div>
+                <span style="color:#2E7D32; font-weight:600;">R38</span>
             </div>
+            <div class="menu-item">
+                <div><strong>Cappuccino</strong><br><small>Espresso + steamed milk + foam art</small></div>
+                <span style="color:#2E7D32; font-weight:600;">R42</span>
+            </div>
+            <div class="menu-item">
+                <div><strong>Cafe Latte</strong><br><small>Smooth espresso with lots of steamed milk</small></div>
+                <span style="color:#2E7D32; font-weight:600;">R42</span>
+            </div>
+            <div class="menu-item">
+                <div><strong>Flat White</strong><br><small>Double shot, velvety microfoam</small></div>
+                <span style="color:#2E7D32; font-weight:600;">R44</span>
+            </div>
+        </section>
 
-            <div style="display: flex; justify-content: space-between; margin: 15px 0;">
-                <div>
-                    <strong>Cappuccino</strong>
-                    <p style="margin: 5px 0; font-size: 14px; color: #666;">Espresso + steamed milk + foam art</p>
-                </div>
-                <strong style="color: #4CAF50;">R40</strong>
+        <!-- COLD DRINKS -->
+        <section class="card">
+            <img src="images/iced-latte.jpg" alt="Cold Drinks" class="menu-img-main" onerror="this.src='https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=500'">
+            <h3>🧊 Cold Drinks</h3>
+            <div class="menu-item">
+                <div><strong>Iced Latte</strong><br><small>Chilled espresso with cold milk over ice</small></div>
+                <span style="color:#2E7D32; font-weight:600;">R45</span>
             </div>
+            <div class="menu-item">
+                <div><strong>Cold Brew</strong><br><small>12-hour steeped, smooth & strong</small></div>
+                <span style="color:#2E7D32; font-weight:600;">R48</span>
+            </div>
+        </section>
 
-            <div style="display: flex; justify-content: space-between; margin: 15px 0;">
-                <div>
-                    <strong>Cafe Latte</strong>
-                    <p style="margin: 5px 0; font-size: 14px; color: #666;">Smooth espresso with lots of steamed milk</p>
-                </div>
-                <strong style="color: #4CAF50;">R42</strong>
+        <!-- FRESH BAKES -->
+        <section class="card">
+            <img src="images/croissant.jpg" alt="Fresh Bakes" class="menu-img-main" onerror="this.src='https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=500'">
+            <h3>🥐 Fresh Bakes</h3>
+            <div class="menu-item">
+                <div><strong>Croissant</strong><br><small>Buttery, flaky, baked fresh daily</small></div>
+                <span style="color:#2E7D32; font-weight:600;">R28</span>
             </div>
-
-            <div style="display: flex; justify-content: space-between; margin: 15px 0;">
-                <div>
-                    <strong>Flat White</strong>
-                    <p style="margin: 5px 0; font-size: 14px; color: #666;">Double shot, velvety microfoam</p>
-                </div>
-                <strong style="color: #4CAF50;">R44</strong>
+            <div class="menu-item">
+                <div><strong>Chocolate Muffin</strong><br><small>Warm with melted chocolate chips</small></div>
+                <span style="color:#2E7D32; font-weight:600;">R32</span>
             </div>
-
-            <!-- COLD DRINKS -->
-            <h3 style="color: #6D4C41; border-bottom: 2px solid #D7CCC8; padding-bottom: 10px; margin: 30px 0 20px 0;">🧊 Cold Drinks</h3>
-            
-            <div style="display: flex; justify-content: space-between; margin: 15px 0;">
-                <div>
-                    <strong>Iced Latte</strong>
-                    <p style="margin: 5px 0; font-size: 14px; color: #666;">Chilled espresso with cold milk over ice</p>
-                </div>
-                <strong style="color: #4CAF50;">R45</strong>
+            <div class="menu-item">
+                <div><strong>Avocado Toast</strong><br><small>Sourdough, avo, feta, chilli flakes</small></div>
+                <span style="color:#2E7D32; font-weight:600;">R65</span>
             </div>
-
-            <div style="display: flex; justify-content: space-between; margin: 15px 0;">
-                <div>
-                    <strong>Cold Brew</strong>
-                    <p style="margin: 5px 0; font-size: 14px; color: #666;">12-hour steeped, smooth & strong</p>
-                </div>
-                <strong style="color: #4CAF50;">R48</strong>
-            </div>
-
-            <!-- FOOD SECTION -->
-            <h3 style="color: #6D4C41; border-bottom: 2px solid #D7CCC8; padding-bottom: 10px; margin: 30px 0 20px 0;">🥐 Fresh Bakes</h3>
-            
-            <div style="display: flex; justify-content: space-between; margin: 15px 0;">
-                <div>
-                    <strong>Croissant</strong>
-                    <p style="margin: 5px 0; font-size: 14px; color: #666;">Buttery, flaky, baked fresh daily</p>
-                </div>
-                <strong style="color: #4CAF50;">R28</strong>
-            </div>
-
-            <div style="display: flex; justify-content: space-between; margin: 15px 0;">
-                <div>
-                    <strong>Chocolate Muffin</strong>
-                    <p style="margin: 5px 0; font-size: 14px; color: #666;">Warm with melted chocolate chips</p>
-                </div>
-                <strong style="color: #4CAF50;">R32</strong>
-            </div>
-
-            <div style="display: flex; justify-content: space-between; margin: 15px 0;">
-                <div>
-                    <strong>Avocado Toast</strong>
-                    <p style="margin: 5px 0; font-size: 14px; color: #666;">Sourdough, avo, feta, chilli flakes</p>
-                </div>
-                <strong style="color: #4CAF50;">R65</strong>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2026 Cape Bean Coffee Co | Created by Anentlahla Duku | ST10507071</p>

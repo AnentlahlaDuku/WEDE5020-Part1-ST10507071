@@ -5,35 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cape Bean Coffee Co</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Merriweather:wght@600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
+        <h1>Cape Bean Coffee Co</h1>
         <nav>
-            <h1>Cape Bean Coffee Co</h1>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="enquiry.html">Enquiry</a></li>
-                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero">
-        <h2>Welcome to Cape Bean Coffee Co</h2>
-        <p>Locally roasted. Community focused. Sea Point's favorite.</p>
-        
-        <!-- VISITATION HOURS INSIDE THE PICTURE -->
-        <div style="background: rgba(0,0,0,0.5); padding: 20px; border-radius: 12px; display: inline-block; margin: 20px 0;">
-            <p style="margin: 5px 0; font-size: 18px;"><strong>🕒 OPENING HOURS</strong></p>
-            <p style="margin: 5px 0; font-size: 16px;">Monday - Friday: 7am - 6pm</p>
-            <p style="margin: 5px 0; font-size: 16px;">Saturday - Sunday: 8am - 5pm</p>
-        </div>
-        
-        <br>
-        <a href="menu.html" class="btn">View Menu</a>
-    </section>
+    <main class="main-grid">
+        <section class="hero">
+            <h2>Welcome to Cape Bean Coffee Co</h2>
+            <p>Locally roasted. Community focused. Sea Point's favorite.</p>
+            
+            <div class="card" style="max-width: 400px; margin: 2rem auto 0;">
+                <p><strong>🕒 OPENING HOURS</strong></p>
+                <p>Monday - Friday: 7am - 6pm</p>
+                <p>Saturday - Sunday: 8am - 5pm</p>
+            </div>
+
+            <br>
+            <a href="menu.html" class="btn">View Menu</a>
+        </section>
+
+        <section class="content">
+            <div class="card">
+                <h3>Why Cape Bean?</h3>
+                <p>We are a small, community coffee shop in Sea Point. Every bean is ethically sourced from Western Cape farms and roasted in-house weekly.</p>
+            </div>
+        </section>
+
+        <aside class="sidebar">
+            <div class="card">
+                <h3>Find Us</h3>
+                <p>123 Regent Rd, Sea Point<br>Cape Town</p>
+                <a href="enquiry.html" class="btn">Visit Us</a>
+            </div>
+        </aside>
+    </main>
 
     <footer>
         <p>&copy; 2026 Cape Bean Coffee Co | Created by Anentlahla Duku | ST10507071</p>

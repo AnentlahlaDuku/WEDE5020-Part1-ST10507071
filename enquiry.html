@@ -1,75 +1,66 @@
-  <!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enquiry & Contact - Cape Bean Coffee Co</title>
+    <title>Cape Bean Coffee Co | Enquiry</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Merriweather:wght@600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
+        <h1>Cape Bean Coffee Co</h1>
         <nav>
-            <h1>Cape Bean Coffee Co</h1>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="enquiry.html">Enquiry</a></li>
-                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="enquiry-bg">
-        <h2 style="font-size: 42px; margin-bottom: 10px;">Enquiry & Contact</h2>
-        <p style="font-size: 18px; margin-bottom: 30px;">We'd love to hear from you!</p>
-
-        <!-- BIG BOX WITH BOTH CONTACT + FORM INSIDE THE PICTURE -->
-        <div style="background: rgba(255,248,240,0.95); color: #4E342E; padding: 35px; border-radius: 16px; display: inline-block; margin-top: 10px; max-width: 900px; width: 90%; max-height: 700px; overflow-y: auto; text-align: left;">
-            
-            <!-- CONTACT INFO SECTION -->
-            <h3 style="text-align: center; color: #6D4C41; margin-bottom: 20px;">📍 Visit Us Or Call Us</h3>
+    <section class="enquiry-bg hero">
+        <h2>Enquiry & Contact</h2>
+        <p>We'd love to hear from you!</p>
+        
+        <div class="card" style="max-width: 900px; margin: 2rem auto; text-align: left;">
+            <h3 style="text-align: center; color: #6D4C41;">📍 Visit Us Or Call Us</h3>
             
             <div style="display: flex; gap: 30px; flex-wrap: wrap; justify-content: center; margin-bottom: 30px;">
                 <div style="flex: 1; min-width: 250px;">
-                    <p style="margin: 10px 0;"><strong>📍 Address</strong><br>123 Regent Rd, Sea Point<br>Cape Town, 8005</p>
+                    <p><strong>📍 Address</strong><br>123 Regent Rd, Sea Point<br>Cape Town, 8065</p>
                 </div>
                 <div style="flex: 1; min-width: 250px;">
-                    <p style="margin: 10px 0;"><strong>📞 Phone</strong><br>+27 21 555 0123</p>
-                    <p style="margin: 10px 0;"><strong>✉️ Email</strong><br>hello@capebeancoffee.co.za</p>
+                    <p><strong>📞 Phone</strong><br>+27 21 555 0123</p>
+                    <p><strong>✉️ Email</strong><br>hello@capebeancoffee.co.za</p>
                 </div>
                 <div style="flex: 1; min-width: 250px;">
-                    <p style="margin: 10px 0;"><strong>🕒 Hours</strong><br>Mon-Fri: 7am - 6pm<br>Sat-Sun: 8am - 5pm</p>
+                    <p><strong>🕒 Hours</strong><br>Mon-Fri: 7am - 6pm<br>Sat-Sun: 8am - 5pm</p>
                 </div>
             </div>
 
-            <hr style="border: 1px solid #D7CCC8; margin: 30px 0;">
+            <hr>
 
-            <!-- ENQUIRY FORM SECTION -->
-            <h3 style="text-align: center; color: #6D4C41; margin-bottom: 20px;">💬 Send Us A Message</h3>
-
-            <!-- QUICK INFO -->
-            <div style="background: rgba(109, 76, 65, 0.1); padding: 15px; border-radius: 12px; margin-bottom: 20px;">
-                <p style="margin: 5px 0; text-align: center;"><strong>⏱️</strong> We reply within 24 hours | <strong>🎉</strong> Bookings & Catering Available</p>
-            </div>
+            <h3 style="text-align: center; color: #6D4C41; margin: 2rem 0;">✉️ Send Us A Message</h3>
             
+            <div style="background: rgba(109,76,65,0.1); padding: 15px; border-radius: 12px; margin-bottom: 20px;">
+                <p style="text-align: center;"><strong>⏱️</strong> We reply within 24 hours | <strong>📦</strong> Bookings & Catering Available!</p>
+            </div>
+
             <form style="display: flex; flex-direction: column; gap: 18px;">
                 <div>
-                    <label style="font-weight: bold; color: #4E342E;">Your Name</label>
-                    <input type="text" placeholder="Anentlahla Duku" required 
-                    style="width: 100%; padding: 12px; margin-top: 8px; border: 2px solid #D7CCC8; border-radius: 8px; font-size: 16px;">
+                    <label>Your Name</label>
+                    <input type="text" placeholder="Anentlahla Duku" required>
                 </div>
-
                 <div>
-                    <label style="font-weight: bold; color: #4E342E;">Your Email</label>
-                    <input type="email" placeholder="you@email.com" required
-                    style="width: 100%; padding: 12px; margin-top: 8px; border: 2px solid #D7CCC8; border-radius: 8px; font-size: 16px;">
+                    <label>Your Email</label>
+                    <input type="email" placeholder="you@email.com" required>
                 </div>
-
                 <div>
-                    <label style="font-weight: bold; color: #4E342E;">Subject</label>
-                    <select required
-                    style="width: 100%; padding: 12px; margin-top: 8px; border: 2px solid #D7CCC8; border-radius: 8px; font-size: 16px; background: white;">
+                    <label>Subject</label>
+                    <select required>
                         <option value="">-- Please Choose --</option>
                         <option value="booking">Book Our Space</option>
                         <option value="catering">Catering Enquiry</option>
@@ -77,20 +68,12 @@
                         <option value="other">Other</option>
                     </select>
                 </div>
-
                 <div>
-                    <label style="font-weight: bold; color: #4E342E;">Your Message</label>
-                    <textarea rows="5" placeholder="Tell us what you need..." required
-                    style="width: 100%; padding: 12px; margin-top: 8px; border: 2px solid #D7CCC8; border-radius: 8px; font-size: 16px;"></textarea>
+                    <label>Your Message</label>
+                    <textarea rows="5" placeholder="Tell us what you need..." required></textarea>
                 </div>
-
-                <button type="submit" class="btn" style="border: none; cursor: pointer; font-size: 18px; margin-top: 10px;">
-                    Send Message
-                </button>
-
-                <p style="text-align: center; margin-top: 10px; color: #666; font-size: 14px;">
-                    <strong>Note:</strong> This form is for display only for your project
-                </p>
+                <button type="submit" class="btn" style="font-size: 18px; margin-top: 10px;">Send Message</button>
+                <p style="text-align: center; font-size: 14px; color: #666;"><strong>Note:</strong> This form is for display only for your project</p>
             </form>
         </div>
     </section>
